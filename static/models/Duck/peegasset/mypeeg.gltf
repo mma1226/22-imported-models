@@ -1,0 +1,143 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v3.2.43",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "textured.001",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071067094802856
+      ],
+      "scale": [
+        21.721105575561523,
+        21.721105575561523,
+        21.721105575561523
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "textured_0.001",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.5456499457359314
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "textured.001",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ],
+  "images": [
+    {
+      "name": "textured_0_XPAi96iH",
+      "uri": "mypeeg_img0.jpg"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 9669,
+      "max": [
+        0.028070999309420586,
+        0.06448499858379364,
+        0.012130239978432655
+      ],
+      "min": [
+        -0.04286009818315506,
+        -0.03414800018072128,
+        -0.051966000348329544
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 9669,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 9669,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 32502,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 116028,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 116028,
+      "byteOffset": 116028
+    },
+    {
+      "buffer": 0,
+      "byteLength": 77352,
+      "byteOffset": 232056
+    },
+    {
+      "buffer": 0,
+      "byteLength": 65004,
+      "byteOffset": 309408
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "mypeeg_data.bin",
+      "byteLength": 374412
+    }
+  ]
+}
